@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 8px solid #d8cefe;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+.business-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  border-radius: 8px; /* Optional rounded corners */
+}
+
+.business-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
